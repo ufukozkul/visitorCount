@@ -1,2 +1,2 @@
 # visitorCount
-Counts the distinct visitors count of a website
+Counts the distinct visitors of a website
