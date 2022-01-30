@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div class="alert alert-success">
+        Visitors: <strong>   @Model.GetUniqeVisitorCount("./visitors.txt") </strong>
+    </div>
+    <div class="alert alert-info">
+        <strong>Info!</strong> Indicates a neutral informative change or action.
+    </div>
+
+    <div class="alert alert-warning">
+        <strong>Warning!</strong> Indicates a warning that might need attention.
+    </div>
+
+    <div class="alert alert-danger">
+        <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+    </div>
+    <p>Laaaaabbbbbb <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
